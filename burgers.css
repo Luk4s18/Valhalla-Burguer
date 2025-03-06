@@ -98,12 +98,13 @@ body {
 button {
     display: flex;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding: 40px;
+    padding: 30px;
     font-size: medium;
     border-radius: 10px;
     gap: 15px;
     align-items: center;
     background-color: rgba(169, 169, 169, 0.589);
+
 }
 
 .botao {
