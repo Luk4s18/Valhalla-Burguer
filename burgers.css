@@ -7,7 +7,7 @@
 header {
     background-color: #9a927b;
     color: aliceblue;
-    padding: 10px;
+    padding: 25px;
     display: flex;
     justify-content: center;
     gap: 15px;
@@ -30,12 +30,21 @@ body {
     justify-content: center;
     color: aliceblue;
     font-size: large;
-
+    align-items: center;
+    padding: 130px;
 }
 
 
 .imagem1 img {
     width: 750px;
+    font-size: 60px;
+    color: white;
+}
+
+.imagem1 p{
+    padding: 20px;
+    color: white;
+    line-height: 20px;
 }
 
 
@@ -47,15 +56,29 @@ body {
     align-items: center;
     color: aliceblue;
     font-size: large;
+    padding: 130px;
 }
 
+.imagem img{
+    width: 65%;
+}
+
+.imagem p{
+    padding: 10px;
+    color: white;
+    line-height: 20px;
+}
+
+
+
 .chifre img {
+
     width: 80px;
 
 }
 
 .chifre {
-    background-color: #eeda95;
+    background-color: #eedb9570;
     display: flex;
     justify-content: space-evenly;
     padding: 50px;
@@ -66,11 +89,11 @@ body {
     width: 80px;
 }
 
-.machado{
-    background-color: #eeda95 ;
+.machado {
+    background-color: #eedb9560;
     display: flex;
-    justify-content:  space-evenly;
-    padding: 50px ;
+    justify-content: space-evenly;
+    padding: 50px;
     gap: 30px;
 }
 
@@ -83,16 +106,26 @@ body {
     align-items: center;
     color: aliceblue;
     font-size: large;
+    padding: 130px;
 }
 
+.imagem2 img{
+    width: 65%;
+}
+
+.imagem2 p{
+    padding: 10px;
+    color: white;
+    line-height: 20px;
+}
 
 
 .emoticons {
     display: flex;
-   justify-content: space-evenly;
-   background-color: #9a927b;
-   padding: 50px;
-   gap: 30px;
+    justify-content: space-evenly;
+    background-color: #9a927b;
+    padding: 50px;
+    gap: 30px;
 }
 
 button {
